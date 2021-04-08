@@ -10,11 +10,11 @@ This is a program that generates random mazes and solves it for you! Press SPACE
 Clone this repository and open `make.bat`. This will compile your project.
 
 ### Compiling with an IDE
-If you prefer an IDE like `Visual Studio` or `Code::Blocks` then you need to link to libgdi32.
+If you prefer an IDE like `Visual Studio` or `Code::Blocks` then you need to link to `libgdi32`.
+
 For `Code::Blocks` do the following-
 
 (1) Create a new empty project.
-
 
 (2) Create a new file with `.c` extension
 
@@ -22,7 +22,7 @@ For `Code::Blocks` do the following-
 
 (4) Go to `Project`->`Build Options`->`Linker Settings` -> `Add`
 
-(5) When the prompts appear type `gdi32` and then confirm with `Ok`
+(5) When the prompt appears type `gdi32` and then confirm with `Ok`
 
 Now the project should compile just fine
 
