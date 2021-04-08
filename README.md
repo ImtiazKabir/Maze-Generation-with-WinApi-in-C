@@ -12,6 +12,8 @@ Clone this repository and open `make.bat`. This will compile your project.
 ### Compiling with an IDE
 If you prefer an IDE like `Visual Studio` or `Code::Blocks` then you need to link to `libgdi32`.
 
+![O3Moc](https://user-images.githubusercontent.com/50050890/114013437-58a3bf80-9889-11eb-9293-7119f5c5c909.png)
+
 For `Code::Blocks` do the following-
 
 (1) Create a new empty project.
