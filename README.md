@@ -29,7 +29,7 @@ Now the project should compile just fine
 
 ## Algorithm
 
-I have used recursive backtracking to generate the maze (see the `recursive implementation` of <a href="https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_depth-first_search">Maze Generation</a>
+I have used recursive backtracking to generate the maze (see the `recursive implementation` of <a href="https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_depth-first_search">Maze Generation</a>)
 
 And to solve the maze this program runs a <a href="https://en.wikipedia.org/wiki/Depth-first_search">Depth first search</a>
 
