@@ -44,7 +44,7 @@ There are two lines you need to change. Go to the `CONSTANTS` section of `main.c
 This can happen if you have changed the column and rows to some odd number. This program assumes that the destinition of the maze is the `[row-2][col-2]`. In your case this cell is a wall. You can fix this by setting the column and rows (See the above FAQ) to some even number or change the destinion cell from the `solveMaze` function. *[You can always create an issue in this repository]* <br><br>
 **(4) I want bigger/smaller screen resolution** <br>
 You need to alter the source code and build your project again.[See the <a href = "https://github.com/ImtiazKabir/Maze-Generation-with-WinApi-in-C#building-the-program" >instructions for building </a>] <br>
-There are two lines you need to change. Go to the `CONSTANTS` section of `main.c`. You will see two define statements defining `WIDTH` and `HEIGHT`. This two constants represent number of columns and rows. Change them to your liking. *[It is recommended to make them integer multiple of `col` and `row`]* <br><br>
+There are two lines you need to change. Go to the `CONSTANTS` section of `main.c`. You will see two define statements defining `WIDTH` and `HEIGHT`. This two constants represent the screen resolution. Change them to your liking. *[It is recommended to make them integer multiple of `col` and `row`]* <br><br>
 **(5) I dont see the entire maze when I run the program** <br>
 I am currently working on this. For now you can resize the window dragging the bottom right corner of the window. (Sorry for the inconvenience)
 
