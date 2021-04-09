@@ -46,5 +46,5 @@ This can happen if you have changed the column and rows to some odd number. This
 You need to alter the source code and build your project again.[See the <a href = "https://github.com/ImtiazKabir/Maze-Generation-with-WinApi-in-C#building-the-program" >instructions for building </a>] <br>
 There are two lines you need to change. Go to the `CONSTANTS` section of `main.c`. You will see two define statements defining `WIDTH` and `HEIGHT`. This two constants represent number of columns and rows. Change them to your liking. *[It is recommended to make them integer multiple of `col` and `row`]* <br><br>
 **(5) I dont see the entire maze when I run the program** <br>
-I am currently working on this. For now you can resize the window dragging bottom right corner of the window. (Sorry for the inconvenience)
+I am currently working on this. For now you can resize the window dragging the bottom right corner of the window. (Sorry for the inconvenience)
 
