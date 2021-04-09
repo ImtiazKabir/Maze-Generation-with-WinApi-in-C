@@ -1,32 +1,37 @@
 # Maze Generation with WinApi in C
-This is a program that generates random mazes and solves it for you! Press SPACE to see the solution or move on to the next one!
+This is a program that generates random mazes and solves it for you!
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/50050890/114009785-47f14a80-9885-11eb-9cfd-772d88c1fabb.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/50050890/114146859-e5a65180-9939-11eb-823b-a030b36d207e.gif)
 
 
-## Compiling the program
+## Running the program
+Clone this repository and open `main.exe`. This should execute without any problem on most machines. If there is any problem, you need to build the source (`main.c`) on your own. [See the following instructions for building]
 
-### Without any IDE
-Clone this repository and open `make.bat`. This will compile your project.
 
-### Compiling with an IDE
-If you prefer an IDE like `Visual Studio` or `Code::Blocks` then you need to link to `libgdi32`.
+## Building the program
 
-![O3Moc](https://user-images.githubusercontent.com/50050890/114013437-58a3bf80-9889-11eb-9293-7119f5c5c909.png)
+### Building without any IDE
+Clone this repository and open `make.bat`. This will build your project.
+
+### Building with an IDE
+If you prefer an IDE like <a href="https://visualstudio.microsoft.com/">`Visual Studio`</a> or <a href=https://www.codeblocks.org/>`Code::Blocks`</a> then you need to link to <a href="https://docs.microsoft.com/en-us/windows/win32/">`libgdi32`</a>.
 
 For `Code::Blocks` do the following-
 
-(1) Create a new empty project.
+(!) Create a new empty project.
 
-(2) Create a new file with `.c` extension
+(!) Create a new file with `.c` extension
 
-(3) Copy everything from my `main.c` to your file
+(!) Copy everything from my `main.c` to your file
 
-(4) Go to `Project`->`Build Options`->`Linker Settings` -> `Add`
+![O3Moc](https://user-images.githubusercontent.com/50050890/114013437-58a3bf80-9889-11eb-9293-7119f5c5c909.png)
 
-(5) When the prompt appears type `gdi32` and then confirm with `Ok`
+(!) Go to `Project`->`Build Options`->`Linker Settings` -> `Add` (See the above image)
 
-Now the project should compile just fine
+(!) When the prompt appears type `gdi32` and then confirm with `Ok` (See the above image)
+
+Now the project should build just fine
+
 
 
 ## Algorithm
