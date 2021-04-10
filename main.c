@@ -407,8 +407,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE previnstance, LPSTR lpcmdline,
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
-        WIDTH,
-        HEIGHT,
+        WIDTH + 20,         // Add some padding to show the entire screen
+        HEIGHT + 45,        // Height needs more padding because of the bar
         NULL,
         NULL,
         hInstance,
