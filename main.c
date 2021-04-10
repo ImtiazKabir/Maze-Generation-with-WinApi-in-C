@@ -28,6 +28,11 @@ Press SPACE to see the solution or move on to the next one!
 #define WIDTH 500
 #define HEIGHT 500
 
+
+// these are window padding to give the title bar and window border the space they need.
+#define WIDTH_Padding 20
+#define HEIGHT_Padding 45
+
 // The maze is essentially a board. So number of rows and columns is necessary
 #define row 50
 #define col 50
@@ -407,8 +412,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE previnstance, LPSTR lpcmdline,
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
-        WIDTH + 20,         // Add some padding to show the entire screen
-        HEIGHT + 45,        // Height needs more padding because of the bar
+        WIDTH + WIDTH_Padding,         // Add some padding to show the entire screen
+        HEIGHT + HEIGHT_Padding,        // Height needs more padding because of the bar
         NULL,
         NULL,
         hInstance,
